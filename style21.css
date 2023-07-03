@@ -1,0 +1,169 @@
+body {
+    background-color: #f9e9da;
+    overflow: hidden;
+}
+
+#head1 {
+    text-align: center;
+    color: #009999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009999;
+    padding: 0px;
+    padding-right: 5px;
+    margin: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+    color: #fff;
+}
+
+/* .class-option {
+    color: #fff;
+} */
+
+.right-section {
+    display: flex;
+    color: #fff;
+}
+
+.nav-options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-options li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-options li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.nav-options li a:hover {
+    background-color: rgb(0, 122, 122);
+    border-radius: 5px;
+}
+
+#main1 {
+    /* display: flex;
+flex-direction: column; */
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#left_panel {
+    width: 50%;
+    height: 350px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    max-height: 350px;
+    /* margin-left: 10px; */
+}
+
+#output {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: 290px;
+}
+
+#buttons {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#right_panel {
+    /* width: 75%; */
+    height: auto;
+    margin-top: 10px;
+}
+
+#img_main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+}
+
+#grid_main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px;
+    /* padding-left: 10%;
+padding-right: 10%; */
+    /* border: 1px solid black; */
+    gap: 10px;
+}
+
+
+.grid_item {
+    /* text-align: left; */
+    padding: 10px;
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+
+.grid_item button {
+    padding: 5px;
+    background-color: #f9e9da;
+    border: none;
+    cursor: pointer;
+}
+
+.grid_item :hover {
+    background-color: #d1c4b8;
+}
+
+#bot {
+    background-color: bisque;
+    color: rgb(173, 80, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 3px;
+    width: 100%;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -3px;
+    padding-left: 5px;
+    /* border: 1px solid black; */
+}
+
+table,
+th,
+td {
+    border: 0.1px solid;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+#prevButton,
+#nextButton,
+#toggleButton {
+    padding: 5px 7px;
+    width: 85.23px;
+    background-color: #9a9985;
+    color: white
+}

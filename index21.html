@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPINET - Mumbai</title>
+    <link rel="stylesheet" type="text/css" href="style21.css">
+    <script src="script4.js" defer></script>
+    <script src="slideshow.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left-section">
+            <img src="ongclogo.png" alt="Logo" height="50">
+            <span class="logo-text"><b>EPINET<br></b>Mumbai</span>
+        </div>
+        <div class="right-section">
+            <ul class="nav-options">
+                <li><a href="#" style="color:white;">Task Force Members</a></li>
+                <li><a href="#" style="color:white;">Active Lease Blocks</a></li>
+                <li><a href="#" style="color:white;">Forms</a></li>
+                <li><a href="#" style="color:white;">About</a></li>
+                <li><a href="#" style="color:white;">Help</a></li>
+                <li><a href="#" style="color:white;">ID</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <h1 id="head1">Welcome to EPINET</h1>
+
+
+    <div id="main1">
+
+        <div id="left_panel">
+            <div id="output"></div>
+            <div id="buttons">
+                <button id="prevButton" onclick="showPrevious()"><i class="fas fa-step-backward"></i> Previous</button>
+                <button id="nextButton" onclick="showNext()">Next <i class="fas fa-step-forward"></i></button>
+                <button id="toggleButton">Pause</button>
+            </div>
+        </div>
+
+
+        <div id="right_panel">
+            <!-- <div id="img_main">
+                <img src="graphimg.png" height="200">
+            </div> -->
+            <div id="grid_main">
+                <div class="grid_item"><button href="#"><i class="fas fa-database"></i> Data Viewer</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-map-marker-alt"></i> Location Map</button>
+                </div>
+                <div class="grid_item"><button href="#"><i class="fas fa-bolt"></i> PowerQuery</button></div>
+                <div class="grid_item"><button onclick="window.location.href = 'loader.html';"><i
+                            class="fas fa-database"></i> Data Loader</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-star"></i> GTO</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-toolbox"></i> Utilities</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-cogs"></i> e-Core Library</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-star"></i> CEGDIS</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-star"></i> MPR</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-life-ring"></i> Helpdesk</button></div>
+                <div class="grid_item"><button href="#"><i class="fas fa-file-alt"></i> Spud/Rig Release Note</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="bot">
+        Developed and maintained by <b>EPINET</b>
+    </footer>
+</body>
+
+</html>
